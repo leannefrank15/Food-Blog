@@ -1,0 +1,46 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.post a {
+  color: black;
+}
+
+.post a:hover,
+.post a:active {
+  font-size: 17px;
+  background: linear-gradient(to right, #799f0c, #acbb78);
+  transition: width 10%;
+  transition: all 0.4s ease;
+  color: white;
+  padding: 2px 5% 2px 5%;
+}
+
+.post img {
+  width: 25%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.post h3 {
+  margin: 0.25rem 0;
+}
+
+.post time {
+  color: #666666;
+  margin: 0.25rem;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.post:hover time,
+.post:active time {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
