@@ -18,9 +18,8 @@
   padding: 2px 5% 2px 5%;
 }
 
-.post img {
-  width: 25%;
-  object-fit: cover;
+.post img{
+  width: 40%;
   border-radius: 50%;
   margin-bottom: 15px;
 }
@@ -43,4 +42,7 @@
 
 a {
   text-decoration: none;
+}
+.style1{
+  font-size: 15px;
 }

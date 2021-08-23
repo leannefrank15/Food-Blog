@@ -20,10 +20,12 @@
 </section>
 
 <section id="latest-posts">
-  <h2>Stuff thats been on my mind lately:</h2>
+  <h2>Food thats been on my mind lately ;)</h2>
 
   <ul>
+    {% for post in posts%}
     {%include "blog/includes/post.html"%}
+    {%endfor%}
   <ul>
 </section>
 
